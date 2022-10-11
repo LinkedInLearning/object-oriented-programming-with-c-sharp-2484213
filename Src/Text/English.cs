@@ -14,6 +14,8 @@ public class English :Language
         ActionError = "You can't do that.";
         Go = "Go";
         GoError = "You can't go that way.";
+        WhatToDo = "What do you want to do?";
+        Quit = "quit";
     }
 
 }

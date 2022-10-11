@@ -11,5 +11,8 @@ public abstract class Language
     public string ActionError { get; protected set; } = "";
     public string Go { get; protected set; } = "";
     public string GoError { get; protected set; } = "";
+    public string WhatToDo { get; protected set; } = "";
+    public string Quit { get; protected set; } = "";
+
 
 }
