@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Src\Text\" />
+    <None Remove="Src\Characters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Src\Text\" />
+    <Folder Include="Src\Characters\" />
+  </ItemGroup>
 </Project>
