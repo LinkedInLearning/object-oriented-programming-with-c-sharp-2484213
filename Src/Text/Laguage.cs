@@ -1,6 +1,6 @@
 ﻿namespace OOPAdventure;
 
-public abstract class Language
+public abstract partial class Language
 {
 
     public string Welcome { get; protected set; } = "";
@@ -16,6 +16,8 @@ public abstract class Language
     public string RoomNew { get; protected set; } = "";
     public string RoomOld { get; protected set; } = "";
     public string And { get; protected set; } = "";
+    public string Comma { get; protected set; } = "";
+    public string Space { get; protected set; } = "";
 
 
 }
