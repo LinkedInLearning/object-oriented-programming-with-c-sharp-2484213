@@ -40,6 +40,9 @@ public class English :Language
         Key = "key";
         ChestEmpty = "The chest is empty.";
         ChestFound = "You found: {0}";
+        Gold = "{0} gold {1}";
+        Coin = "coin";
+        Coins = Coin + "s";
     }
 
 }
