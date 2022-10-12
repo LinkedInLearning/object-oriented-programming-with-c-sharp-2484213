@@ -53,6 +53,9 @@ public class English :Language
         NotTaken = "You can't take that";
         TookDescription = "You took a {0}.";
         CantTakeDescription = "You can't take the {0}.";
+        Use = "Use";
+        UseSuccess = "You used the {0}";
+        UseError = "You can't use that.";
     }
 
 }

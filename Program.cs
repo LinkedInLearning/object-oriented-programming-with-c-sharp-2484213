@@ -28,6 +28,7 @@ house.PopulateRooms(items);
 Actions.Instance.Register(new Go(house));
 Actions.Instance.Register(new Backpack(player));
 Actions.Instance.Register(new Take(house));
+Actions.Instance.Register(new Use(house));
 
 house.GoToStartingRoom();
 
