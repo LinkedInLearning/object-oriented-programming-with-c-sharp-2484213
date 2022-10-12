@@ -7,6 +7,8 @@ public class Inventory : IInventory
 
     public int Total => Items.Count;
 
+    public string[] InventoryList => Items.Select(i => i.Name).ToArray();
+
     public void Add(Item item)
     {
         Items.Add(item);

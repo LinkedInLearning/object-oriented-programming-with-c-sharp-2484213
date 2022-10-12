@@ -12,6 +12,8 @@ public class Player : Character, IInventory
 
     public int Total => _inventory.Total;
 
+    public string[] InventoryList => _inventory.InventoryList;
+
     public void Add(Item item)
     {
         _inventory.Add(item);

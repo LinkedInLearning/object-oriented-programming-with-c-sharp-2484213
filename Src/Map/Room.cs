@@ -24,6 +24,8 @@ public class Room : IInventory
 
     public int Total => _invnetory.Total;
 
+    public string[] InventoryList => _invnetory.InventoryList;
+
     public override string ToString()
     {
 
