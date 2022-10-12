@@ -16,6 +16,9 @@ public class English :Language
         GoError = "You can't go that way.";
         WhatToDo = "What do you want to do?";
         Quit = "quit";
+        RoomNew = "You entered {0}.";
+        RoomOld = "You return to {0}.";
+        And = "and";
     }
 
 }

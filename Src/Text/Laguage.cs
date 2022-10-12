@@ -13,6 +13,9 @@ public abstract class Language
     public string GoError { get; protected set; } = "";
     public string WhatToDo { get; protected set; } = "";
     public string Quit { get; protected set; } = "";
+    public string RoomNew { get; protected set; } = "";
+    public string RoomOld { get; protected set; } = "";
+    public string And { get; protected set; } = "";
 
 
 }
