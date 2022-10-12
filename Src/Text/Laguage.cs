@@ -19,5 +19,6 @@ public abstract partial class Language
     public string Comma { get; protected set; } = "";
     public string Space { get; protected set; } = "";
     public List<string> RoomDescriptions { get; protected set; }
+    public string NoItem { get; protected set; } = "";
 
 }

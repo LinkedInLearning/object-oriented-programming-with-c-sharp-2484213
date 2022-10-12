@@ -31,6 +31,7 @@ public class English :Language
             "scary",
             "strange"
         };
+        NoItem = "You don't have {0}.";
     }
 
 }
