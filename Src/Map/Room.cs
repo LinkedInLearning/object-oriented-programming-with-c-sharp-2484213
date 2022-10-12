@@ -2,11 +2,13 @@
 
 namespace OOPAdventure;
 
-public class Room
+public class Room : IInventory
 {
 
     public string Name { get; set; } = Text.Language.DefaultRoomName;
     public string Description { get; set; } = Text.Language.DefaultRoomDescription;
+
+    private readonly IInventory _invnetory = new Inventory();
 
     public Dictionary<Directions, int> Neighbors { get; set; } = new()
     {
@@ -19,6 +21,8 @@ public class Room
     };
 
     public bool Visited { get; set; }
+
+    public int Total => _invnetory.Total;
 
     public override string ToString()
     {
@@ -42,4 +46,38 @@ public class Room
 
     }
 
+    public void Add(Item item)
+    {
+        _invnetory.Add(item);
+    }
+
+    public bool Conatins(string itemName)
+    {
+        return _invnetory.Conatins(itemName);
+    }
+
+    public Item? Find(string itemName)
+    {
+        return _invnetory.Find(itemName);
+    }
+
+    public Item? Find(string itemName, bool remove)
+    {
+        return _invnetory.Find(itemName, remove);
+    }
+
+    public void Remove(Item item)
+    {
+        _invnetory.Remove(item);
+    }
+
+    public Item? Take(string itemName)
+    {
+        return _invnetory.Take(itemName);
+    }
+
+    public void Use(string itemName, string source)
+    {
+        _invnetory.Use(itemName, source);
+    }
 }

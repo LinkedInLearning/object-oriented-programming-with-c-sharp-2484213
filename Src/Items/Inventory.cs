@@ -1,6 +1,6 @@
 ﻿using OOPAdventure;
 
-public class Inventory
+public class Inventory : IInventory
 {
 
     private List<Item> Items { get; } = new();
@@ -20,10 +20,10 @@ public class Inventory
     public Item? Find(string itemName)
     {
 
-        foreach( var item in Items)
+        foreach (var item in Items)
         {
 
-            if(item?.Name == itemName)
+            if (item?.Name == itemName)
             {
 
                 return item;
@@ -33,7 +33,7 @@ public class Inventory
 
         }
 
-        return null; 
+        return null;
 
     }
 
@@ -42,7 +42,7 @@ public class Inventory
 
         var item = Find(itemName);
 
-        if(item != null && remove)
+        if (item != null && remove)
         {
             Remove(item);
         }
@@ -70,7 +70,7 @@ public class Inventory
 
         var item = Find(itemName);
 
-        if(item != null)
+        if (item != null)
         {
 
             item.Use(source);
