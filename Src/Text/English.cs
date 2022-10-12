@@ -48,6 +48,11 @@ public class English :Language
         Are = "are";
         TotalItems = " There {0} {1} item{2} in the room: ";
         Period = ".";
+        Take = "Take";
+        TakeError = "There is nothing to take.";
+        NotTaken = "You can't take that";
+        TookDescription = "You took a {0}.";
+        CantTakeDescription = "You can't take the {0}.";
     }
 
 }
