@@ -30,6 +30,35 @@ public partial class House
 
             tmpRoom.Name = String.Format(Text.Language.DefaultRoomName, i, c, r);
 
+            if(c < Width - 1)
+            {
+
+                tmpRoom.Neighbors[Directions.East] = CalculateRoomIndex(c + 1, r);
+
+            }
+
+            if(c > 0)
+            {
+
+                tmpRoom.Neighbors[Directions.West] = CalculateRoomIndex(c - 1, r);
+
+            }
+
+            if(r < Height - 1)
+            {
+
+                tmpRoom.Neighbors[Directions.South] = CalculateRoomIndex(c, r + 1);
+
+            }
+
+            if(r > 0)
+            {
+
+                tmpRoom.Neighbors[Directions.North] = CalculateRoomIndex(c, r - 1);
+
+            }
+
+            Rooms[i] = tmpRoom;
 
         }
 
