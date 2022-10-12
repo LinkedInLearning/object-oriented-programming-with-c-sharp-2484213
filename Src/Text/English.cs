@@ -32,6 +32,9 @@ public class English :Language
             "strange"
         };
         NoItem = "You don't have {0}.";
+        Backpack = "Backpack";
+        BackpackError = "You don't have anything in your backpack.";
+        BackpackDescription = "Your backpack contains: {0}.";
     }
 
 }

@@ -18,6 +18,7 @@ house.CreateRooms(3, 3);
 house.DecorateRooms();
 
 Actions.Instance.Register(new Go(house));
+Actions.Instance.Register(new Backpack(player));
 
 house.GoToStartingRoom();
 
