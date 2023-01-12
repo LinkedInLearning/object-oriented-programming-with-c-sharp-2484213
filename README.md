@@ -34,4 +34,4 @@ Jesse Freeman
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jesse-freeman).
 
 [lil-course-url]: https://www.linkedin.com/learning/object-oriented-programming-with-c-sharp-17331514?dApp=59033956
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4D0DAQGKWU3GX_YEGA/learning-public-crop_675_1200/0/1670017170734?e=1670958000&v=beta&t=FLcsIw1xvcGqE3x1YXVgzP_y7kz0oSkBguf5ELON240
+[lil-thumbnail-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQGKWU3GX_YEGA/learning-public-crop_675_1200/0/1670017170734?e=2147483647&v=beta&t=0itFpegN_wkbiko7pm_m-zqdFqWn4aReXFiZPBapN0g
